@@ -1,0 +1,143 @@
+* { margin: 0; padding: 0; }
+
+body{
+text-align:center;
+font-family:"Times New Roman",Times,serif;
+color:#ffffff;
+font-size:16px;
+
+background-image:url('../images/reWalls.com_184.jpg');
+}
+#sound{
+display:none;
+}
+
+header{
+text-align:center;
+border-bottom:2px solid;
+
+}
+
+footer{
+text-align:center;
+margin-top:10px;
+border-top:1px solid;
+
+}
+
+article{
+text-indent:10px;
+margin:10px;
+padding-bottom:0;
+}
+
+.highlight{
+color:red;
+
+}
+
+nav{
+text-align:center;
+padding-top:14px;
+background-color: transparent;
+
+}
+
+nav li:hover{
+	background-color: #fff;
+	
+}
+
+nav ul { 
+
+list-style-type:none; 
+margin: 0; padding: 0;
+
+}
+
+nav li{
+display:inline;
+border-color:#fff;
+}
+
+nav li a {  color:#000000;
+display:inline-block; 
+padding: 1em 0; 
+
+width:90px;}
+
+nav li a:hover { color:#000000; border-color:#990000; }
+
+nav li a:active { color:#00FF00;}
+
+li p{
+	text-align: center;
+	width:70%;
+}
+
+ul li{
+	text-align: center;
+}
+
+aside{
+float:right;
+
+}
+
+input{
+cursor:pointer;
+}
+
+mark{color:#ffffff;
+background-color:#000000;
+
+}
+
+textarea{
+width:320px;
+height:50px;
+display:none;
+
+}
+
+#game{
+
+text-align:center;
+background-image:url(../images/nicebackground.jpg);
+border:solid 1px;
+border-color:#ffffff;
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+}
+
+.text_line
+{
+clear:both;
+margin-bottom:3px;
+}
+
+a:link{
+color:#000000;
+font-size:18px;
+font-style:normal;
+text-decoration:none;
+}
+
+a:visited{
+color:#fff;
+}
+
+a:hover{
+color:#ff0000;
+}
+
+a:active{
+color:#fff;
+text-decoration:none;
+
+}
+a.active{
+color:#000000;
+
+border-color:#ff0000;
+}
